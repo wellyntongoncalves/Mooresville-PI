@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="../assets/icon/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mooresville| Blog</title>
+
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="dashboards.css">
+    <link rel="stylesheet" href="css/font/all.css">
+    <script src="../js/funcoes.js"></script>
+    <script src="./config/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- scripts do Chart.js -->
+    <script type="text/javascript" src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+
+</head>
+
+<body>
+    <!-- onload="validarSessao(), atualizarFeed()" -->
+    <header>
+        <div class="container1">
+            <div class="menu">
+                <center>
+                    <ul>
+                        <li>
+                            <a href="dashboard.html">BlOG</a>
+                        </li>
+
+                        <li>
+                            <input class="not" type="" name=""> <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li>
+                            <div class="btn-logout" onclick="limparSessao()">
+                                <h3>pesquisar</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn-logout" onclick="limparSessao()">
+                                <h3>Sair</h3>
+                            </div>
+                        </li>
+
+                    </ul>
+                </center>
+
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="container"></div>
+        <center><img src="mooresville-logo-removebg-preview.png" alt=""></center>
+    </div><br><br>
+    </div>
+    <section class="box-captura">
+        </div>
+        <div class="container1">
+            <div class="wrapper-captura">
+                <div class="box-single-chamada">
+                    <h3>Baixe Mooresville gratuitamente!</h3>
+                </div>
+
+                <div class="box-single-captura">
+                    <a class="far-fa" href="./jogo/Mooresville.rar" download>Baixar agora!</a>
+                    <p style="margin-left: 20px;">100% livre de span <i class="fas fa-arrow-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section class="content">
+        <article class="centraliza-container" id="bateria">
+            <center>
+                <h2 style="margin-top: 20px;">Conheça Mooresville!</h2>
+            </center><br><br>
+            <center><img src="Office.jpg" alt=""></center><br>
+            <p class="texto-esquerda"> Mooresville é uma cidade real no condado de Limestone, norte do Alabama e possui
+                apenas 67 habitantes, é uma pacata cidade em um dos mais cômicos
+                Estados americanos. A cidade possui um grande background histórico, principalmente por ter sido palco da
+                guerra de secessão. Foi escolhida como palco para a história do Grupo Urano, não só por ser uma cidade
+                histórica, mais por seu posicionamento geográfico e por ser extremamente pacata, afinal, quem iria
+                procurar nosso protagonista em <b> Mooresville, Alabama</b><span id="reticencias">...</span></p>
+            <br><span id="mostrar">
+                <p class="texto-esquerda"></p><br>
+                <br>
+                -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                <center>
+                    <h3>Conheça Mooresville</h3>
+                </center>
+                <p>-Aqui você pode baixar e ler a história em que o jogo foi baseado.</p><br>
+
+                <a href="Mooresville Wilson cut-1.pdf" download>Baixar PDF</a><br><br>
+                <h3>Dicas para jogar</h3>
+                <p> 1- Não se esqueça de verificar se está digitando as opções corretamente dentro do jogo para evitar
+                    problemar</p><br><br>
+                <p>2- Suas decisões afetam a continuidade do jogo, então pense bem antes de tomá-las, pois elas
+                    certamente podem te levar a morte e a perca total do seu progresso no jogo</p><br><br>
+                <p>3- Apesar de o jogo ser baseado em uma história linear, sua escolhas podem te levar a um final...
+                    diferente</p><br><br>
+                <p>4- Não se esqueça de se divertir muito, e tome cuidado com os "Animais".</p><b><br></b>
+
+            </span>
+            <button id="btn1" onclick="leiaMais()">Leia Mais</button>
+        </article><br>
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        <article class="centraliza-container" id="bateria">
+            <center>
+                <h2 style="margin-top: 20px;">Nossa História</h2>
+            </center><br><br>
+            <center><img src="vilamais.jpg" alt=""></center><br>
+            <p class="texto-esquerda"> <h4>Mooresville</h4>
+                Meu tio Tyler era uma das personalidades mais bizarras que se pode imaginar, mas nem sempre ele foi assim. 
+                Nós nunca fomos realmente muito próximos, porém ele sempre aparecia para ver minha vó. depois daquela porcaria que aconteceu com ele... ele sumiu. 
+                 Minha vó sempre o defendia.
+                - Ele é um homem ocupado e reservado, não tem como vir visitar a gente, porém ele é um dos melhores cientistas deste país. - Dizia ela. 
+                Minha vó também vivia me contando histórias sobre ele: 
+                “Quando mais novo, seu tio Tyler era um homem muito estressado e mal conseguia um projeto aprovado na sua empresa, ainda bem que ele encontrou uma mulher boa para concertar ele. 
+                 Suzana fez seu tio mudar por completo, isso foi ótimo, eu nunca o vi tão feliz na minha vida, depois dela ele também cresceu muito como cientista na empresa.” 
+                <span id="reticencias1">...</span></p>
+            <br><span id="mostrar1">
+                <p class="texto-esquerda"></p><br>
+                <br>
+               
+                    Em um churrasco quando eu tinha 9 anos eu percebi que tio Tyler tinha uma mania de ficar murmurando uma música, perguntei para ele que música era essa e me respondeu com um sorriso no rosto: 
+                    <br> -oiiii garotão, essa música é que minha esposa fez quando completamos 1 ano de casadoS, fomos ao caribe na ocasião. 
+                     Na viagem, escutei ela no barco muitas vezes, essa música grudou na minha cabeça e agora vivo a murmurá-la até hoje, porque amo ela... tanto a música quanto minha Suzana. 
+                    ...... 
+                    <br> Ele era tão feliz e sorridente com aquela mulher, eles estavam prestes a ter um filho quando aconteceu. Um certo dia, Suzana saiu de carro para fazer algumas compras de essênciais e um caminhoneiro bêbado bateu no carro dela. O bebê e ela morreram na hora. 
+                    A última vez que vi meu tio Tyler foi no enterro de Suzana, ele chorava na frente do caixão e murmurava aquela mesma música. 
+                    Após esse ocorrido ele ficou estranho....  
+                    Quando eu tinha 15 anos, tio Tyler mudou-se para o sul, e desde então tive poucas “notícias” sobre ele, se é que se pode chamar algumas cartinhas de Feliz natal de notícias, já faz mais de 5 anos que não o vejo. 
+                     
+                     
+                     
+                     
+                     
+                    Então você pode imaginar meu estado de surpresa em me encontrar dentro do meu carro, dirigindo em direção a Mooresville, uma cidadezinha pacata no norte do Alabama com incríveis 60 habitantes... Rumo a casa do meu tio Tyler. 
+                    Chegando ao endereço que me foi passado, me encontro parado em frente a enorme casa de 2 andares que parecia ter saído de um seriado de comédia dos anos 60. 
+                    Tyler, que naquela altura já estava a 6 anos sem dar nenhum sinal de vida, me ligou numa manhã de segunda-feira e pediu-me que fosse até Mooresville, ele teria que viajar a um congresso de ciências no Rio de Janeiro e não tinha mais ninguém que pudesse cuidar de seus “animais” enquanto ele estivesse fora.  
+                    Animais... Lembro de minha mãe dizer que ele odiava qualquer tipo de animal, o que será que o levou a mudar de ideia, e agora criar animais em sua casa, pensando bem... 
+                     Ele sequer citou qual tipo de animais ele tinha aqui, eu mal sei o que estou fazendo aqui, onde raios estava com a cabeça de achar que isso seria uma boa ideia, mas ele parecia estar realmente precisando de minha ajuda. ) <br><br> 
+                     
+                  
+                     
+                    senhora misteriosa: <br>
+                    -	Você é sobrinho do Tyler Dawnson?  
+                            Disse uma voz rouca, com um forte e típico sotaque caipira do Sul, me tirando do transe em que eu estava. <br>
+                       
+                           (Quanto tempo eu tinha ficado parado ali encarando a porta?)           -Sim, sou eu! 
+                              Digo me virando, para encarar uma senhora, de aparentemente uns 65 anos, com um vestido preto bordado, que parecia uma obra da Guerra de Secessão, a senhora segurava um gato preto em uma mão e uma carta selada na outra.  
+                            <br><br>
+                     
+                       senhora misteriosa: <br> 
+                    -	Prazer, me chamo Joanna Smith. Moro nessa casa aqui em frente, é um prazer te conhecer garoto, na verdade, é um prazer conhecer qualquer parente do Tyler, ele costuma ser um homem tão solitário...  
+                              <br><br>
+                    -	Pois é.... tio Tyler consegue ser uma pessoa bem retraída as vezes!  
+                            Digo eu, demonstrando uma intimidade inexistente. <br><br>
+                             Joanna: 
+                    -	A anos que somos vizinhos e nunca vi ele conversar com ninguém, ou levar alguém a sua casa...  Bom, imagino que você esteja cansado da viagem e não vou ficar te incomodando com minha conversa mole. Esse é o gato de Tyler, Apolo, Tyler também deixou esta carta para você com algumas instruções. 
+                             <br><br>
+                           -Muito obrigado, Sra. Joanna!  
+                          Digo pegando a carta e começando a abrir o selo. <br><br>
+                           
+                    Joanna: <br>
+                    -	ESPERA!  
+                          Gritou mudando completamente de expressão, aquela Aura amigável havia sumido. 
+                          – Tyler me pediu para aconselhá-lo a abrir a carta só quando estivesse dentro de casa. 
+                            empurrou o gato preto em minhas mãos, virou suas costas e em um passo acelerado voltou para sua casa e bateu a porta sem dizer mais nada. 
+                             <br><br>
+                          (Tudo isso que acabou de acontecer foi muito estranho... aquela senhora que antes parecia tão amigável, subitamente mudou. Sua expressão parecia de.... medo!)     depois de me perder por mais alguns minutos em meus pensamentos, decido dar uma olhada em volta do velho terreno da casa. 
+                          Atrás da casa havia um jardim, com plantas que pareciam que não viam um Regador a séculos. 
+                          Enquanto estou olhando, ouço um barulho atrás de um dos arbustos, e enquanto me aproximo para ver o que era, sinto uma aflição imensa... parece que algo não está certo... 
+                         <br><br>
+                    Apollo: 
+                         -  !!!!!!!!! GHWIII MEEEEOOOWM!!!! 
+                            
+                          minha alma quase sai do meu corpo, de tão grande susto que levei, eu estava tão desligado que até me esqueci que o bendito gato estava comigo. 
+                    <br><br> Depois de me recuperar do susto, decido deixar o arbusto para lá e entrar dentro da casa.
+                    
+                    O Hall da casa era imenso, com três portas que levavam a cômodos diferente, no teto, um lustre que provavelmente compraria o meu sedan velho, e no chão, um grande tapete persa, que se estendia até o pé de uma escada de aproximadamente 30 degraus, tudo que eu sabia sobre a profissão de meu tio, era que ele era um renomado cientista, mas eu realmente não fazia ideia de qual era sua área de atuação, bom, agora sei que a remuneração deve ser excelente. 
+                    
+                    Apolo então, saltou do meu colo e correu pra dentro de uma das três portas que haviam no HALL, e eu então, decidi ler a carta que Joanna havia me entregado.   
+                    
+                    A carta era curta e bem direta, possuía uma pequena mensagem do meu tio e algumas regras, a carta dizia:
+                    “ Olá, garotão. Espero que esteja tudo bem. Sei que tenho sido muito ausente nos últimos anos e gostaria que as coisas tivessem sido diferentes, mas não posso mudar o que já passou. Gostaria que houvesse outro jeito, um jeito em que eu não precisasse te envolver nisto, porém, o avanço científico que proporcionará, está acima de qualquer vínculo entre nós. Espero que me perdoe. Voltarei dentro de 3 dias, uma vez dentro da casa, você não poderá sair mais. Não se preocupe, na dispensa tem tudo que você vai precisar nesses tempo. Se você quiser sobreviver, precisará seguir estas regras abaixo:
+                    1-	Sempre que andar pela casa, garanta que você tenha uma lanterna carregada por você, quedas de e luz são comuns por aqui.
+                    2-	Não fique no escuro total por mais de 2 minutos, quando dormir deixe um abajur ligado e garanta que não vai acordar no meio da noite, caso acorde, não abra os olhos. Caso tenha uma queda de luz e sua lanterna não funcione, corra para dentro do banheiro da suíte master no segundo andar, eles não podem entrar lá. Durma no banheiro nessa noite, pela manhã, tudo deve estar mais tranquilo.
+                    3-	Se ouvir um assovio equanto estiver em algum cômodo da casa, não olhe para trás, ajoelhe-se no lugar que está, feche os olhos e diga com autoridade “O mestre chegará a qualquer momento, volte a sua posição”, caso você ouça um suspiro profundo e passos, espere até que os passos fiquem distantes, vá para seu quarto e durma. Caso após você dizer como foi instruido, uma voz gutural dizer “ Ainda temos tempo”, aproveite que está ajoelhado e comece a rezar para que sua morte seja rápida e indolor.
+                    4-	Não abra a porta da frente para ninguém após as 21:00, mesmo que a pessoa lá for a diga ser eu e seja semelhante comigo, eu não estarei aí, eles sabem imitar muito bem..
+                    5-	Por fim, não abra a porta na cozinha que dá ao porão, ela deve permanecer fechada todo tempo, caso em qualquer um dos dias você a veja aberta, entre no banheiro citsdo anteriormente e fique lá até eu voltar. 
+                    6-	NÃO DURMA NA SUITE MASTER.
+                    Seguindo essas regras, tudo deve ficar bem. Nos falamos na minha volta. Boa sorte!”
+                    Assim que terminei de ler a carta, um arrepio subiu pela ponta dos meus dedos do pé, até a cabeça. O que foi tudo isso que eu acabei de ler? Não consegui assimilar as informações… então percebo que a carta diz que uma vez dentro da casa eu não posso sair, como assim? Me viro e vou até a porta, viro a maceneta e nada. A porta está trancada, e não tem nenhuma chave a vista, será que tudo isso é real? Quer dizer, só pode ser o tio Tyler me pregando uma peça, algum jeito sádico de recriar uma intimidade que talvez tivessemos no passado.
+                    Após diversas tentivas frustadas de abrir a porta, decido subir as escadas e descobrir como era o meu quarto, então subo as escadas e me deparo com um extenso corredor que leva a 4 quartos diferentes, 3 portas simples de um lado e do outro, uma entrada grande com uma porta dupla, claro que s tratava da suíte master da casa. Logo percebo que está extremamente escuro no segundo andar, olha para meu relógio e vejo que ainda são 15:00. Logo começo a transpirar e sentir a estranha sensação de que não estou sozinho, então me lembro da regra de número 2, não ficar no escuro por mais de 2 minutos. Então sou acometido de uma grande aflição, olho em volta e para meu alívio encontro um interruptor de luz, assim que o aciono, as luzes do corredor de acendem e instantaneamente aquela estranha sensação passa, eu sempre fui muito cético, mas cada minuto em que eu passava nessa casa, me fazia entrar em choque com minhas crenças pessoais.
+                    Como nas regras estava explícito que eu não deveria dormir na suíte master, decido checar ela primeiro. Abrindo o portal de acesso ao quarto, sinto uma mudança de temperatura incrível, o quarto era extremamente gelado, nele possuía uma porta que eu imagino levar ao banheiro, passo meus olhos rapidamente pelo closet que estava aberto e minha alma congela quando penso ter visto um par de olhos me encarando de dentro da escuridão que envolvia aquele closet. Quando firmo meu olhar na direção em que pensei ter visto os olhos, não havia nada lá. Após isso, decido fechar a porta da suíte e verificar os outros quartos. As duas portas mais ao fundo estavam trancadas, o que me levava ao primeiro quarto do corredor e minha última chance, nem morto eu dormiria naquela suíte. Quando giro a maçaneta, a porta se abre e dou de cara com um quarto humilde, que possuia uma cama, um armário pequeno e uma escrivaninha com uma cadeira. Coloco, finalmente, minha mochila no chão e vou em direção a janela na intenção de abri-la para aliviar um pouco do cheiro de mofo presente no quarto. Quando chego a janela, olho para baixo e meu corpo estremece ao ver Joanna, parada na calçada olhando para mim, ela não parecia ter expressão nenhuma em seu rosto. Eu queria sair dali, queria parar de encará-la, porém meus músculos não respondiam aos comandoS, eu não conseguia me mover, estava completamente paralisado. Depois de intermináveis segundos parado ali, sem que nenhum de nós dois nos movessemos, Joanna simplesmente virou a cabeça como se ouvisse algo, e começou a caminhar na direção do suposto. O Stress foi tão grande, que eu desmaiei. 
+                    Acordei deitado no chão, primeiramente não reconheci o ambiente em que estava, olhei para meu relógio e eram 2:45 da manhã, eu estava no escuro e logo aquela aflição encontrou seu caminho de volta até mim. Quase entro em desespero completo quando percebo que estou dentro da suíte, no escuro total e acordado no meio da noite. Logo após ter essa realização, eu escuto uma voz.
+                    <br><br> -	Quanto tempo não vejo sangue quente por aqui. – diz a voz rouca, que retumbava de todos os cantos do quarto sem deixar pista de onde se originára.
+                    <br><br>
+                    -Q… Quem está aí? – eu respondo vacilante, porém sou acometido por nada além de silêncio. 
+                    <br><br>
+                    Então, eu sinto uma mão tocar meu ombro, agora com meus olhos acostumados com a escuridão, corro até a direção da porta e saio para o corredor, este que estava iluminado, olho para trás, para dentro do quarto escuro e vejo apenas uma silhueta que não consigo definir o que era, me olhando e indo para trás até sumir na escuridão. Era como se a coisa não tivesse a forma, ou pelo menos sua forma não seguisse nenhum dos padrões aceitáveis de existência. 
+                    
+                    Quando me viro para o corredor, percebo uma peculiaridade. As portas dos demais quartos, que estavam trancadas, agora estavam abertas… abertas não, escancaradas. Me aproximo e entro no primeiro quarto.  Ele estava completamente destruído, os móveis virados de cabeça para baixo e no chão havia um lampião, então eu me abaixo e pego-o, nunca se sabe quando vai precisar.
+                    
+                    Entrando no outro quarto, vejo que na verdade é um escritório, com diversos livros e troféus científicos. No meio do escritório uma bela mesa de madeira maciça servia de descanso para um caderno aberto. Sento-me na Grande poltrona para ler do que se de trata.
+                    
+                    “ Tentas tentativas e nada… cheguei tão perto com o 61°, mas ainda falta algo para que o experimento fique perfeito, sangue fresco… e esse sangue precisa ser compatível com o meu, afim de que ela possa me reconhecer. Eu não deveria fazer isso, mas acredito que essa seja a única solução. Espero que Deus me perdoe por isso”.
+</center>                    
+
+            </span><br>
+            <button id="btn2" onclick="leiaMais1()">Leia Mais</button>
+        </article><br>
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        <article class="centraliza-container" id="bateria">
+            <center>
+                <h2 style="margin-top: 20px;">Organização do Projeto</h2>
+            </center><br><br>
+            <center><img src="transferirtrellopng.png" alt=""></center><br>
+            <p class="texto-esquerda"> Trello é um aplicativo de gerenciamento de projeto baseado na web originalmente desenvolvido em 2011 pela então 
+                Fog Creek Software. Em 2017, foi adquirido pela empresa australiana Atlassian. Ele opera um modelo de negócio freemium.<span id="reticencias2">...</span></p>
+            <br><span id="mostrar2">
+
+           
+                <p class="texto-esquerda"></p><br>
+                <br>
+             <center> <img style="height: 400px;width: 700px;" src="trello.png" alt=""></center><br><br>
+             <p>O trello foi selecionado como plataforma de organização para o projeto. <a href="https://trello.com/invite/b/h2RyRJ2D/ATTI1c2689eca406c300a9cee221e86d4a1bCED9AB86/pi-mooresville"> Clique aqui</a> para ver o painel com mais detalhes</p>
+
+            </span><br><br>
+            <button id="btn1" onclick="leiaMais2()">Leia Mais</button>
+             </article><br>
+             -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+       <article class="centraliza-container" id="bateria">
+            <center>
+                <h2 style="margin-top: 20px;">Fluxograma</h2>
+            </center><br><br>
+            <center><img src="Dnetpng.png" alt=""></center><br>
+            <p class="texto-esquerda"> Fluxograma das escolhas e caminhos que o jogo percorre até alcançar seus finais, desenvolvido no Diagrams.Net. O diagrams.net é um software de desenho gráfico com multiplataforma gratuito e de código aberto desenvolvido em HTML5 e JavaScript. 
+                Sua interface pode ser usada para criar diagramas como fluxogramas, wireframes, diagramas UML, organogramas e diagramas de rede.</b><span id="reticencias3">...</span></p>
+            <br><span id="mostrar3">
+                <p class="texto-esquerda"></p><br>
+                <br>
+                <center> <img style="height: 400px;width: 700px;" src="MooresvilleFluxograma.drawio (1).png" alt=""></center><br><br>
+                <p>Para ver o diagrama com mais detalhes. <a href="MooresvilleFluxograma.rar" download> Clique aqui</a> para ver o painel com mais detalhes</p>
+
+            </span>
+            <button id="btn3" onclick="leiaMais3()">Leia Mais</button>
+        </article><br>
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        <article class="centraliza-container" id="bateria">
+             <center>
+                 <h2 style="margin-top: 20px;">Código do projeto</h2>
+             </center><br><br>
+             <center><img src="javal.webp" alt=""></center><br>
+             <p class="texto-esquerda"> O Algoritmo que controla as escolhas do usuário foi desenvolvido na linguaguem java. 
+                São condições de If e else, que direcionam a trilha do usuario de acordo com as escolhas que foram tomadas.</b><span id="reticencias3">...</span></p>
+             <br><span id="mostrar4">
+                 <p class="texto-esquerda"></p><br>
+                 <br>
+                 <center> <img style="height: 400px;width: 700px;" src="codigo1.png" alt=""></center><br><br>
+                 <center> <img style="height: 400px;width: 700px;" src="codigo2.png" alt=""></center><br><br>
+ 
+             </span>
+             <button id="btn4" onclick="leiaMais4()">Leia Mais</button>
+         </article><br>
+        <div>
+            <center>
+                <h3>Melhores pontuadores do blog</h3>
+            </center>
+            <canvas style="width: 50vw; height: 25vh;" id="myChart"></canvas>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="container">
+
+            <h4>Todos os direitos reservados&copy; Equipe Urano 2022</h4>
+
+            <h6></h6>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    const labels = [
+        'HunterBR',
+        'illinoisguy',
+        'zéfire',
+        'proDutra',
+        'Cyrax',
+        'Stalin',
+        'GVRO',
+    ];
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: '',
+            backgroundColor: 'black',
+            borderColor: 'black',
+            data: [1500, 1200, 900, 765, 400, 250, 190],
+        }]
+    };
+
+    const config = {
+        type: 'bar',
+        data: data,
+        options: {}
+    };
+    const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+    );
+
+    let proximaAtualizacao;
+    function leiaMais() {
+        var reticencias = document.getElementById("reticencias");
+        var mostrar = document.getElementById("mostrar");
+        var btn1 = document.getElementById("btn1");
+
+        if (reticencias.style.display === "none") {
+            reticencias.style.display = "inline"
+            mostrar.style.display = "none"
+            btn1.innerHTML = "Leia Mais"
+        } else {
+            reticencias.style.display = "none"
+            mostrar.style.display = "inline"
+            btn1.innerHTML = "Leia Menos"
+        }
+    }
+    function leiaMais1() {
+        var reticencias = document.getElementById("reticencias1");
+        var mostrar = document.getElementById("mostrar1");
+        var btn2 = document.getElementById("btn2");
+
+        if (reticencias.style.display === "none") {
+            reticencias.style.display = "inline"
+            mostrar.style.display = "none"
+            btn2.innerHTML = "Leia Mais"
+        } else {
+            reticencias.style.display = "none"
+            mostrar.style.display = "inline"
+            btn2.innerHTML = "Leia Menos"
+        }
+    }
+    function leiaMais2() {
+        var reticencias = document.getElementById("reticencias2");
+        var mostrar = document.getElementById("mostrar2");
+        var btn3 = document.getElementById("btn3");
+
+        if (reticencias.style.display === "none") {
+            reticencias.style.display = "inline"
+            mostrar.style.display = "none"
+            btn3.innerHTML = "Leia Mais"
+        } else {
+            reticencias.style.display = "none"
+            mostrar.style.display = "inline"
+            btn3.innerHTML = "Leia Menos"
+        }
+    }
+    function leiaMais3() {
+        var reticencias = document.getElementById("reticencias3");
+        var mostrar = document.getElementById("mostrar3");
+        var btn4 = document.getElementById("btn4");
+
+        if (reticencias.style.display === "none") {
+            reticencias.style.display = "inline"
+            mostrar.style.display = "none"
+            btn3.innerHTML = "Leia Mais"
+        } else {
+            reticencias.style.display = "none"
+            mostrar.style.display = "inline"
+            btn3.innerHTML = "Leia Menos"
+        }
+    }function leiaMais4() {
+        var reticencias = document.getElementById("reticencias3");
+        var mostrar = document.getElementById("mostrar4");
+        var btn4 = document.getElementById("btn5");
+
+        if (reticencias.style.display === "none") {
+            reticencias.style.display = "inline"
+            mostrar.style.display = "none"
+            btn3.innerHTML = "Leia Mais"
+        } else {
+            reticencias.style.display = "none"
+            mostrar.style.display = "inline"
+            btn3.innerHTML = "Leia Menos"
+        }
+    }
+    window.onload = obterDadosGrafico(1);
+
+    b_usuario.innerHTML = sessionStorage.NOME_USUARIO;
+
+    verificar_autenticacao();
+
+    function alterarTitulo(idAquario) {
+        var tituloAquario = document.getElementById("tituloAquario")
+        tituloAquario.innerHTML = "Últimas medidas de Temperatura e Umidade do <span style='color: #e6005a'>Aquário " + idAquario + "</span>"
+    }
+
+    // O gráfico é construído com três funções:
+    // 1. obterDadosGrafico -> Traz dados do Banco de Dados para montar o gráfico da primeira vez
+    // 2. plotarGrafico -> Monta o gráfico com os dados trazidos e exibe em tela
+    // 3. atualizarGrafico -> Atualiza o gráfico, trazendo novamente dados do Banco
+
+    // Esta função *obterDadosGrafico* busca os últimos dados inseridos em tabela de medidas.
+    // para, quando carregar o gráfico da primeira vez, já trazer com vários dados.
+    // A função *obterDadosGrafico* também invoca a função *plotarGrafico*
+
+    //     Se quiser alterar a busca, ajuste as regras de negócio em src/controllers
+    //     Para ajustar o "select", ajuste o comando sql em src/models
+    function obterDadosGrafico(idAquario) {
+        alterarTitulo(idAquario)
+
+        if (proximaAtualizacao != undefined) {
+            clearTimeout(proximaAtualizacao);
+        }
+
+        fetch(`/medidas/ultimas/${idAquario}`, { cache: 'no-store' }).then(function (response) {
+            if (response.ok) {
+                response.json().then(function (resposta) {
+                    console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+                    resposta.reverse();
+
+                    plotarGrafico(resposta, idAquario);
+                });
+            } else {
+                console.error('Nenhum dado encontrado ou erro na API');
+            }
+        })
+            .catch(function (error) {
+                console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+            });
+    }
+
+    // Esta função *plotarGrafico* usa os dados capturados na função anterior para criar o gráfico
+    // Configura o gráfico (cores, tipo, etc), materializa-o na página e, 
+    // A função *plotarGrafico* também invoca a função *atualizarGrafico*
+    function plotarGrafico(resposta, idAquario) {
+        console.log('iniciando plotagem do gráfico...');
+
+        var dados = {
+            labels: [],
+            datasets: [
+                {
+                    yAxisID: 'y-umidade',
+                    label: 'Umidade',
+                    borderColor: '#32B9CD',
+                    backgroundColor: '#32b9cd8f',
+                    fill: true,
+                    data: []
+                },
+                {
+                    yAxisID: 'y-temperatura',
+                    label: 'Temperatura',
+                    borderColor: '#FFF',
+                    backgroundColor: '#32b9cd8f',
+                    fill: true,
+                    data: []
+                }
+            ]
+        };
+
+        for (i = 0; i < resposta.length; i++) {
+            var registro = resposta[i];
+            dados.labels.push(registro.momento_grafico);
+            dados.datasets[0].data.push(registro.umidade);
+            dados.datasets[1].data.push(registro.temperatura);
+        }
+
+        console.log(JSON.stringify(dados));
+        var contextoLm35Temperatura = document.getElementById('lm35Temperatura').getContext('2d');
+        contextoLm35Temperatura.canvas.width = 1000;
+        contextoLm35Temperatura.canvas.height = 300;
+        var lm35Temperatura = new Chart(
+            contextoLm35Temperatura,
+            {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'Temperatura',
+                        type: 'line',
+                        borderColor: ['#222'],
+                        backgroundColor: ['#287bff'],
+                    }]
+                },
+                options: {
+                    scales: {
+                        xAxes: [{
+                            distribution: 'series',
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }],
+                        yAxes: [{
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Temperatura'
+                            },
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    },
+                    animation: {
+                        duration: 0
+                    }
+                }
+            }
+        );
+
+
+        setTimeout(() => atualizarGrafico(idAquario, dados), 2000);
+    }
+
+
+    // Esta função *atualizarGrafico* atualiza o gráfico que foi renderizado na página,
+    // buscando a última medida inserida em tabela contendo as capturas, 
+
+    //     Se quiser alterar a busca, ajuste as regras de negócio em src/controllers
+    //     Para ajustar o "select", ajuste o comando sql em src/models
+    function atualizarGrafico(idAquario, dados) {
+
+        fetch(`/medidas/tempo-real/${idAquario}`, { cache: 'no-store' }).then(function (response) {
+            if (response.ok) {
+                response.json().then(function (novoRegistro) {
+
+                    console.log(`Dados recebidos: ${JSON.stringify(novoRegistro)}`);
+                    console.log(`Dados atuais do gráfico: ${dados}`);
+
+                    // tirando e colocando valores no gráfico
+                    dados.labels.shift(); // apagar o primeiro
+                    dados.labels.push(novoRegistro[0].momento_grafico); // incluir um novo momento
+
+                    dados.datasets[0].data.shift();  // apagar o primeiro de umidade
+                    dados.datasets[0].data.push(novoRegistro[0].umidade); // incluir uma nova medida de umidade
+
+                    dados.datasets[1].data.shift();  // apagar o primeiro de temperatura
+                    dados.datasets[1].data.push(novoRegistro[0].temperatura); // incluir uma nova medida de temperatura
+
+                    window.grafico_linha.update();
+
+                    // Altere aqui o valor em ms se quiser que o gráfico atualize mais rápido ou mais devagar
+                    proximaAtualizacao = setTimeout(() => atualizarGrafico(idAquario, dados), 2000);
+                });
+            } else {
+                console.error('Nenhum dado encontrado ou erro na API');
+                // Altere aqui o valor em ms se quiser que o gráfico atualize mais rápido ou mais devagar
+                proximaAtualizacao = setTimeout(() => atualizarGrafico(idAquario, dados), 2000);
+            }
+        })
+            .catch(function (error) {
+                console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+            });
+
+    }
+</script>

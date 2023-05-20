@@ -1,0 +1,3 @@
+Olá,professor!
+
+Importante lembrar que o código foi desenvolvido no Netbeans, então pode ser que haja alguns conflito, principalmente se o senhor utilizar uma IDE online para verificar o código. Então sugerimos a exclusão do bloco de texto inicial que aparece logo após o start! Obrigado! 
